@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-// const args = process.argv.splice(2)
-// const cmd = args[0]
-// const rest = args.slice(1)
+const { toLower } = require('ramda')
 const [a, b, cmd, ...rest] = process.argv
 // commands
 const help = require('./cmds/help')
@@ -12,7 +10,7 @@ const check = require('./cmds/check')
 const rm = require('./cmds/rm')
 
 function handler(cmd='') {
-  switch(cmd.toLowerCase()) {
+  switch(toLower(cmd)) {
     case 'rm':
       return rm(rest)
     case 'check':
@@ -24,7 +22,7 @@ function handler(cmd='') {
     case 'help':
       return help()
     default:
-      return 'Welcome to my todo app'
+      return help()
   }
 }
 

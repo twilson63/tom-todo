@@ -1,13 +1,15 @@
+const pkg = require('../package')
+
 module.exports = function help () {
   return `
-Welcome to Tom's Todos App
+Welcome to ${pkg.name} version ${pkg.version}
 -------------------------------
 
 commands:
 
-- ls : list todos
-- add [todo text] : add new todo
-- check [todo id] : mark todo a complete
-- rm [todo id] : remove todo
+- todo ls : list todos
+- todo add [todo text] : add new todo
+- todo check [todo id] : mark todo a complete
+- todo rm [todo id] : remove todo
   `
 }
