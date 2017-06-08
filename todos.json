@@ -2,16 +2,41 @@
   {
     "text": "Create Add Item",
     "id": 1,
-    "completed": false
+    "completed": true
   },
   {
     "text": "List Todo Items",
     "id": 2,
-    "completed": false
+    "completed": true
   },
   {
     "text": "Print Help",
     "id": 3,
-    "completed": true
+    "completed": false
+  },
+  {
+    "text": "sometext",
+    "completed": false,
+    "id": 4
+  },
+  {
+    "text": "sometext foobar",
+    "completed": false,
+    "id": 5
+  },
+  {
+    "text": "sometext foobar baz beep boop",
+    "completed": false,
+    "id": 6
+  },
+  {
+    "text": "sometext foobar",
+    "completed": true,
+    "id": 7
+  },
+  {
+    "text": "sometext foobar",
+    "completed": true,
+    "id": 8
   }
 ]
