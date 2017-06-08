@@ -11,7 +11,7 @@ const ls = require('./cmds/ls')
 const check = require('./cmds/check')
 const rm = require('./cmds/rm')
 
-function handler(cmd) {
+function handler(cmd='') {
   switch(cmd.toLowerCase()) {
     case 'rm':
       return rm(rest)
