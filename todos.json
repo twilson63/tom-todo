@@ -12,31 +12,41 @@
   {
     "text": "Print Help",
     "id": 3,
-    "completed": false
+    "completed": true
   },
   {
-    "text": "sometext",
-    "completed": false,
+    "text": "check todo item",
+    "completed": true,
     "id": 4
   },
   {
-    "text": "sometext foobar",
-    "completed": false,
+    "text": "remove todo item",
+    "completed": true,
     "id": 5
   },
   {
-    "text": "sometext foobar baz beep boop",
+    "text": "feat: edit todo item",
     "completed": false,
     "id": 6
   },
   {
-    "text": "sometext foobar",
-    "completed": true,
+    "text": "feat: percent complete",
+    "completed": false,
     "id": 7
   },
   {
-    "text": "sometext foobar",
-    "completed": true,
+    "text": "bug: summit add with not text",
+    "completed": false,
     "id": 8
+  },
+  {
+    "text": "feat: assign todo to person",
+    "completed": false,
+    "id": 9
+  },
+  {
+    "text": "feat: record date time todo is completed",
+    "completed": false,
+    "id": 10
   }
 ]

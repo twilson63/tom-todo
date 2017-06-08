@@ -62,9 +62,12 @@ eg:
 
 ## Future features
 
+* Edit Todo
 * Show the percent complete `todo progress`
 * Assign todo task to person
 * Record the date time completed
+* Add tags
+* Create a flag to show tags with list
 * Export to github issues
 * Export to trello board and list
 
