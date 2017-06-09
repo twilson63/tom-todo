@@ -62,7 +62,7 @@ eg:
 
 ## Future features
 
-* Edit Todo
+* Edit Todo `todo edit 1 beep boop`
 * Show the percent complete `todo progress`
 * Assign todo task to person
 * Record the date time completed
@@ -72,6 +72,26 @@ eg:
 * Export to trello board and list
 
 Other suggestions?
+
+## Steps to deploy
+
+* fix fs bug
+
+```
+let todos
+try {
+  todos = fs.readFileSync('./todos.json', 'utf-8')
+} catch (err) {
+  todos = []
+}
+return JSON.parse(todos)
+
+```
+
+* go to the package.json and change the name of the app
+* register for a npm account - https://www.npmjs.com
+* `npm login`
+* `npm publish`
 
 ## License
 
