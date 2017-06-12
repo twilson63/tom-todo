@@ -10,31 +10,6 @@
       "id": 2,
       "text": "Test Todo 2",
       "completed": false
-    },
-    {
-      "id": 9,
-      "text": "",
-      "completed": true
-    },
-    {
-      "id": 10,
-      "text": "",
-      "completed": true
-    },
-    {
-      "id": 11,
-      "text": "",
-      "completed": false
-    },
-    {
-      "id": 12,
-      "text": "foobar",
-      "completed": false
-    },
-    {
-      "id": 13,
-      "text": "foobar",
-      "completed": false
     }
   ]
 }
