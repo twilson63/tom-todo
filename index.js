@@ -1,16 +1,15 @@
 #!/usr/bin/env node
 
-const { toLower } = require('ramda')
 const [a, b, cmd, ...rest] = process.argv
 // commands
 const help = require('./cmds/help')
 const add = require('./cmds/add')
 const ls = require('./cmds/ls')
 const check = require('./cmds/check')
-const rm = require('./cmds/rm')
+// const rm = require('./cmds/rm')
 
-function handler(cmd='') {
-  switch(toLower(cmd)) {
+function handler(cmd = '') {
+  switch (cmd) {
     case 'rm':
       return rm(rest)
     case 'check':
@@ -26,6 +25,4 @@ function handler(cmd='') {
   }
 }
 
-console.log(
-  handler(cmd)
-)
+console.log(handler(cmd))

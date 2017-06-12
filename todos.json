@@ -1,52 +1,40 @@
-[
-  {
-    "text": "Create Add Item",
-    "id": 1,
-    "completed": true
-  },
-  {
-    "text": "List Todo Items",
-    "id": 2,
-    "completed": true
-  },
-  {
-    "text": "Print Help",
-    "id": 3,
-    "completed": true
-  },
-  {
-    "text": "check todo item",
-    "completed": true,
-    "id": 4
-  },
-  {
-    "text": "remove todo item",
-    "completed": true,
-    "id": 5
-  },
-  {
-    "text": "feat: edit todo item",
-    "completed": false,
-    "id": 6
-  },
-  {
-    "text": "feat: percent complete",
-    "completed": false,
-    "id": 7
-  },
-  {
-    "text": "bug: summit add with not text",
-    "completed": false,
-    "id": 8
-  },
-  {
-    "text": "feat: assign todo to person",
-    "completed": false,
-    "id": 9
-  },
-  {
-    "text": "feat: record date time todo is completed",
-    "completed": false,
-    "id": 10
-  }
-]
+{
+  "counter": 13,
+  "todos": [
+    {
+      "id": 1,
+      "text": "Test Todo",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "text": "Test Todo 2",
+      "completed": false
+    },
+    {
+      "id": 9,
+      "text": "",
+      "completed": true
+    },
+    {
+      "id": 10,
+      "text": "",
+      "completed": true
+    },
+    {
+      "id": 11,
+      "text": "",
+      "completed": false
+    },
+    {
+      "id": 12,
+      "text": "foobar",
+      "completed": false
+    },
+    {
+      "id": 13,
+      "text": "foobar",
+      "completed": false
+    }
+  ]
+}
